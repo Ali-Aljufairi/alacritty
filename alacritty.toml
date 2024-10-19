@@ -1,7 +1,5 @@
 live_config_reload = true
 
-# Campbell (Windows 10 default)
-
 # Default colors
 [colors.primary]
 background = '#0c0c0c'
@@ -36,6 +34,7 @@ shape = "Block"
 [env]
 TERM = "xterm-256color"
 
+
 [font]
 size = 18.5
 
@@ -43,10 +42,11 @@ size = 18.5
 family = "FiraCode Nerd Font"
 
 [window]
-option_as_alt = "OnlyLeft"
+option_as_alt = "Both"
 decorations_theme_variant = "Dark"
 dynamic_padding = false
 opacity = 0.7
+
 blur = true
 
 [window.class]
@@ -112,4 +112,7 @@ action = "DecreaseFontSize"
 key = "Minus"
 mods = "Control"
 
-
+[[keyboard.bindings]]
+action = "Hide"
+key = "m"
+mods = "Control"
